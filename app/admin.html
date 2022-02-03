@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/fr/8/85/Metrobus_RTC_Quebec.png"
+    type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <title>My store | Admin</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="logo">
+          <a href="index.html"> <img class="logo__img" src="images/logo.png" alt="logo"></a>
+        </div>
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="admin.html" class="header__link">Товары</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Поддержка</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Акции сегодня</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Купоны</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">О нас</a>
+          </li>
+        </ul>
+        <div class="header__admin">
+          <span class="header__admin-span">Иван Иванов </span>
+          <a href="#">
+            <img class="header__admin-img" src="images/admin.png" alt="Фото администратора">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="registr admin">
+    <div class="container">
+      <div class="registr__inner admin__inner">
+        <nav class="admin__items registr__item--left nav">
+          <h2 class="nav__title">Режим администратора</h2>
+          <ul class="nav__list nav__list--admin">
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Страницы
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Пользователи
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Тренды
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Коллекции
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Комментарии
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Внешний вид
+              </a>
+            </li>
+          </ul>
+          <h2 class="nav__title">Настройки</h2>
+          <ul class=" nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Настройки
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Опции
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Граффики
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="admin__items admin__items--right  registr__item--rigth">
+          <div class="admin__item">
+            <div class="admin__box" id="box1">
+              <canvas id="myChart1"></canvas>
+            </div>
+            <div class="admin__box" id="box2">
+              <canvas id="myChart2"></canvas>
+            </div>
+          </div>
+          <div class="admin__item">
+            <div class="admin__box"id="box3" >
+                <canvas id="myChart3"></canvas>
+            </div>
+            <div class="admin__box" id="box4">
+                <canvas id="myChart4"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__item footer__item--left">
+          <div class="logo">
+            <a href="#"> <img class="logo__img" src="images/logo.png" alt="logo"></a>
+          </div>
+          <p class="footer__text">
+            Наши товары под любую ситуацию
+          </p>
+          <ul class="footer__svg">
+            <li class="footer__svg-item">
+              <a href="#" class="footer__svg-link">
+                <svg class="footer__svg-img" height="25" width="25">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__svg-item">
+              <a href="#" class="footer__svg-link">
+                <svg class="footer__svg-img" height="25" width="25">
+                  <use xlink:href="#telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__svg-item">
+              <a href="#" class="footer__svg-link">
+                <svg class="footer__svg-img" height="25" width="25">
+                  <use xlink:href="#whatsapp"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__svg-item">
+              <a href="#" class="footer__svg-link">
+                <svg class="footer__svg-img" height="25" width="25">
+                  <use xlink:href="#facebook"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item footer__item--right">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Сервисы</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Реклама на сайте</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Виджеты для сервисом</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Digital профессии</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Подать заявку
+              </a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Пользовательское соглашение
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Правила сайта
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Инструменты
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/JsAdmin/admin.js"></script>
+</body>
+
+</html>
