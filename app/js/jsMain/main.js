@@ -42,11 +42,13 @@ function AllFormEvents(){
     newCity.innerHTML = city;
     selectCity.appendChild(newCity);
   })) // цикл для перебора каждого элемента массива и создания option внутри которого будет элемент
+  
   // Бургер меню
   const menuBtn = document.querySelector('.header__menu');
   const menu = document.querySelector('.header__list');
   const span = document.querySelector('.header__menu-span');
   const body = document.querySelector('body')
+ 
   menuBtn.addEventListener('click', () => {
     menu.classList.toggle('header__list--active');
     menuBtn.classList.toggle('header__menu--active');

@@ -1,6 +1,7 @@
 // Подключена библиотека Chart.js для графиков
 
 // График для первого блока
+document.addEventListener("DOMContentLoaded", () => {
 const labels = [
   'January',
   'February',
@@ -96,3 +97,15 @@ const myChart4 = new Chart(
   document.getElementById('myChart4'),
   config4
 );
+// Бургер меню
+  const menuBtn = document.querySelector('.header__menu');
+  const menu = document.querySelector('.header__list');
+  const span = document.querySelector('.header__menu-span');
+  const body = document.querySelector('body');
+  menuBtn.addEventListener('click', () => {
+    menu.classList.toggle('header__list--active');
+    menuBtn.classList.toggle('header__menu--active');
+    span.classList.toggle('header__menu-span--active');
+    body.classList.toggle('stop-scrolling')
+  })
+})
